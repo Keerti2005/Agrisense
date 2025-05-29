@@ -1,0 +1,221 @@
+.crop1 {
+  width: 100%;
+}
+
+.crop2 {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5px;
+}
+
+.crop3 {
+  transition: all 0.2s ease-in-out;
+}
+
+
+.crop3:hover {
+  transform: scale(1.05);
+}
+
+.crop3 {
+  width: 24%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  border-radius: 10px;
+  padding: 2%;
+  margin: auto;
+  margin-bottom: 3%;
+  height: 400px;
+}
+
+.crop3 img {
+  margin-top: 0;
+}
+
+.crop3 h2 {
+  color: rgb(234, 80, 73);
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+}
+
+.crop4 span {
+  font-family: Poppins;
+  font-weight: 300;
+  margin-top: 5px;
+  letter-spacing: 0.7px;
+  margin-bottom: 2%;
+}
+
+.crop4 p {
+  font-family: Poppins;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+  margin-bottom: 2%;
+  text-align: justify;
+  font-size: 14px;
+}
+
+.crop5 {
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.crop6 {
+  width: 100%;
+  margin-top: 3%;
+}
+
+.crop7 {
+  width: 94%;
+  margin: auto;
+  margin-bottom: 0%;
+}
+
+.crop7 h1 {
+  color: rgb(234, 80, 73);
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+}
+
+.crop7 p {
+  font-family: Poppins;
+  color:rgb(46, 141, 78);
+  font-weight: 300;
+  margin-top: 5px;
+  letter-spacing: 0.7px;
+}
+
+.crop8{
+  width: 100%;
+  margin-top: 0%;
+}
+
+.crop9{
+  width: 94%;
+  margin: auto;
+}
+
+
+.crop10{
+  display: flex;
+  column-gap: 2%;
+  margin-bottom: 2%;
+}
+
+.crop10 a{
+  text-decoration: none;
+  padding: 5px 20px 5px 20px;
+  background-color: rgb(46, 141, 78);
+  color:white;
+  border-radius: 5px;
+  font-family: Poppins;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+  margin-top: 1%;
+}
+
+.crop10 a:hover{
+  background-color: rgb(234, 80, 73);
+}
+
+
+.crop21{
+  width: 95%;
+  margin: auto;
+  margin-top: 2%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  padding: 2%;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.crop22{
+  width: 100%;
+  margin: auto;
+  padding-bottom: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.crop22 p{
+  font-family: Poppins;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+  text-align: justify;
+}
+
+.crop21 button{
+  margin-top: 3%;
+  padding: 10px;
+  width: 30%;
+  border: none;
+  background-color: rgb(234, 80, 73);
+  color:white;
+  border-radius: 5px;
+  font-family: Poppins;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+}
+
+.crop21 button:hover{
+  background-color: rgb(46, 141, 78);
+}
+
+@media (max-width: 767px){
+  .crop21 button{
+      margin-left: 10px;
+      width: 80%;
+      font-size: 15px;
+  }
+  .crop21{
+      padding-top:10px ;
+      padding-bottom: 10px;
+  }
+  .crop22 p{
+      font-size: 13px;
+  }
+  .crop3{
+      width: 49%;
+      height: 330px;
+  }
+  .crop3 h2{
+      font-size: 25px;
+  }
+  .crop3 span{
+      font-size: 13px;
+  }
+  .crop3 p{
+      font-size: 10px;
+  }
+  .crop7 h1{
+      font-size: 25px;
+  }
+  .crop7 p{
+      font-size: 15px;
+  }
+  .crop10{
+      flex-wrap: wrap;
+      column-gap: 2%;
+  }
+  .crop10 a{
+      padding: 1px 10px 1px 10px;
+      font-size: 13px;
+  }
+  .crop1{
+      margin-bottom: 10%;
+      margin-top: 2%;
+  }
+
+  .crop6{
+      margin-top: 10%;
+  }
+}
